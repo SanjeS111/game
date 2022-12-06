@@ -46,25 +46,6 @@ document.getElementById('btnLess').addEventListener('click', function () {
             answerNumber  = Math.floor((minValue + maxValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
-            /*const phraseRandom = Math.round(Math.random() * 3);
-            switch (phraseRandom) {
-                case 0:
-                    answerPhrase = `Может быть это?`
-                    break;
-
-                case 1:
-                    answerPhrase = `И не это?`
-                    break;
-
-                case 2:
-                    answerPhrase = `Как на счет этого?`
-                    break;
-
-                case 3:
-                    answerPhrase = `По любому это`
-                    break;
-            }*/
-
             
             answerField.innerText = `Может это ${answerNumber }?`;
         }
@@ -100,26 +81,7 @@ document.getElementById('btnOver').addEventListener('click', function () {
             answerNumber  = Math.floor((minValue + maxValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
-            /*const phraseRandom = Math.round(Math.random() * 3);
-            switch (phraseRandom) {
-                case 0:
-                    answerPhrase = `Может быть это?`
-                    break;
-
-                case 1:
-                    answerPhrase = `И не это?`
-                    break;
-
-                case 2:
-                    answerPhrase = `Как на счет этого?`
-                    break;
-
-                case 3:
-                    answerPhrase = `По любому это`
-                    break;
-            }*/
-
-            
+                    
             
             answerField.innerText = `Это ${answerNumber }?`;
         }
