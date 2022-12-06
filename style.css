@@ -1,0 +1,9 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+body {
+    background-image: url(https://lh4.ggpht.com/OF6-XCKzfVKLMLgSZOwvYnmj0NNOhOzu9meOAr1EJA-rWQ0HgSWjo-wCGRkKxHVkO212=h500);
+    background-size: cover;
+}
